@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 @Repository
 public class CarDaO implements Repo {
-
+// TODO: THERE IS A BUG WITH SPRING-DEV-TOOLS AND REDIS, TRYING TO USE THE TWO TOGETHER WILL GIVE SOME CASTING ERRORS
     @Autowired
     private RedisTemplate redisTemplate;
 
